@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body class="font-opensans">
-    <header class="flex p-7 justify-between items-center">
+    <header class="flex p-7 justify-between items-center mb-5">
       <img src="images/logo.svg" alt="Logo" class="w-24" />
       <nav class="flex flex-row gap-7 text-desaturated-blue">
         <a href="">Features</a>
@@ -61,10 +61,11 @@
             <input
               type="email"
               placeholder="Enter your email..."
-              class="py-2.5 outline-1 min-w-fit md:w-full md:min-h-12 max-h-fit outline-dark-blue rounded placeholder:pl-5 placeholder:text-sm placeholder:text-light-gray mb-4"
+              required
+              class="py-2.5 outline-1 px-4 text-xs caret-dark-blue text-dark-blue min-w-fit md:w-full md:min-h-12 max-h-fit outline-dark-blue rounded placeholder:text-sm placeholder:text-light-gray mb-4"
             />
             <button
-              class="bg-bright-blue md:max-h-12 md:w-[40%] text-white font-raleway font-semibold p-2.5 md:text-sm lg:text-md rounded shadow-xl"
+              class="cursor-pointer bg-bright-blue hover:bg-dark-blue/90 transition duration-300 md:max-h-12 md:w-[40%] text-white font-raleway font-semibold p-2.5 md:text-sm lg:text-md rounded shadow-xl"
             >
               Get Started
             </button>
@@ -78,7 +79,7 @@
           <img
             src="images/illustration-2.svg"
             alt=""
-            class="max-w-full mb-10 md:mb-0"
+            class="max-w-full mb-10 md:mb-0 lg:max-w-[80%]"
           />
         </div>
         <div class="md:text-left md:row-end-1">
@@ -155,10 +156,10 @@
           <input
             type="email"
             placeholder="email@example.com"
-            class="py-2 outline-0 bg-white w-full rounded-xs placeholder:p-2 placeholder:text-sm placeholder:font-raleway placeholder:text-light-gray"
+            class="py-2 outline-0 bg-white w-full px-4 text-dark-blue rounded-xs placeholder:text-sm placeholder:font-raleway placeholder:text-light-gray"
           />
           <button
-            class="py-2 md:w-[50%] bg-bright-blue sm:min-w-[60%] md:text-sm sm:text-xs font-raleway font-semibold text-sm rounded-xs"
+            class="py-2 md:w-[50%] bg-bright-blue hover:bg-dark-blue/90 cursor-pointer transition duration-300 sm:min-w-[60%] md:text-sm sm:text-xs font-raleway font-semibold text-sm rounded-xs"
           >
             Get Started For Free
           </button>
